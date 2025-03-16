@@ -116,6 +116,75 @@ header .hamburger .line {
 
 
 
+/* Responsive Styles */
+@media (min-width:769px) and (max-width: 1200px) {
+    header .auth a, header .auth .login{
+        padding:10px 20px;
+    }
+    header nav.nav-links li{
+        margin-left: 20px;
+    }
+    }
+    @media (max-width: 820px) {
+        header nav.nav-links {
+            display: none;
+            position: absolute;
+            top: 98px;
+            left: 0px;
+            width: 100%; 
+            background-color: #e9ecef;
+            text-align: center;
+            z-index: 10;
+            overflow: hidden;
+            min-height: 100vh;
+            max-height: 0; 
+            transition: max-height 1s ease-in-out; 
+        }
+    
+        header nav.nav-links ul {
+            flex-direction: column;
+            padding: 0; 
+        }
+    
+        header nav.nav-links li {
+            margin: 0; 
+            padding: 15px 0;
+            border-bottom: 1px solid #dee2e6; 
+        }
+    
+        header nav.nav-links li:last-child {
+            border-bottom: none;
+        }
+    
+        header .hamburger {
+            display: flex;
+        }
+    
+        header .auth  {
+            display: none;
+        }
+    
+        #menu-toggle:checked + .hamburger + .nav-links {
+            display: block; 
+            max-height: 500px; 
+        }
+    
+        #menu-toggle:checked + .hamburger {
+            /* Animate hamburger to X */
+            header .hamburger .line:nth-child(1) {
+                transform: translateY(7px) rotate(45deg);
+            }
+    
+            header .hamburger .line:nth-child(2) {
+                opacity: 0;
+            }
+    
+            header .hamburger .line:nth-child(3) {
+                transform: translateY(-7px) rotate(-45deg);
+            }
+        }
+    }
+
 
 
 /* hero section */
@@ -172,4 +241,41 @@ header .hamburger .line {
 }
 .social-proof-mob{
     display: none;
+}
+@media (min-width:821px) and (max-width:1200px){
+    .hero-container{
+     padding: 40px 20px;
+    }
+    #hero h1{
+        font-size: 36px;
+    }
+    #hero p{
+        font-size: 14px;
+    }
+}
+@media  (max-width: 820px) {
+    .hero-container, .buttons{
+        flex-direction: column;
+    }
+    .hero-container{
+        padding: 40px 21px;
+    }
+    .social-item{
+        display: none;
+    }
+    .social-proof-mob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:60px;
+    }
+    .social-items{
+        display: flex;
+    }
+    #hero h1{
+        font-size: 36px;
+    }
+    #hero p{
+        font-size: 14px;
+    }
 }
