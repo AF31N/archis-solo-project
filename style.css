@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    font-family: Lato, sans-serif;
+    background-color: #fff;
+}
+
+:root {
+    --dark: #12141D;
+    --prime: #043A53;
+    --grey: #F2F5F6;
+    --white: #fff;
+    --secon: #92A7B0;
+    --greysecon: #C9D3D8;
+    --yellow: #F0B73F;
+    --darkgrey: #404040;
+    --fw8: 800;
+    --fw7: 700;
+    --fw4: 400;
+}
+
+a {
+    text-decoration: none;
+}
