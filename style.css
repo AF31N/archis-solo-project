@@ -279,3 +279,31 @@ header .hamburger .line {
         font-size: 14px;
     }
 }
+
+
+/* Trusted Brand Section */
+.clients-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+.client-logos-wrap{
+    display: flex;
+    gap:64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-logos1, .client-logos2{
+    display: flex;
+    gap:64px;
+}
+.clients-container p{
+    font-size: 16px;
+    color:#000000;
+    font-weight: 500;
+}
+.clients-container h3{
+    font-size: 1.5rem;
+    color:#787878;
+}
