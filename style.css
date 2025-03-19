@@ -1005,3 +1005,47 @@ header .hamburger .line {
         display: block;
     }
 }
+
+
+
+/* CTA Banner Section */
+.cta-banner {
+    padding: 100px 0 0 150px;
+    background-color: var(--dark);
+    max-height: 520px;
+}
+.cta{
+    display: flex;
+}
+.cta-content h1{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: var(--fw7);
+    margin-bottom: 50px;
+}
+.cta-button{
+    background-color: var(--yellow);
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: var(--fw7);
+    display: flex;
+    gap:25px;
+    align-items: center;
+    max-width: 290px;
+    margin-bottom: 24px;
+}
+.cta-content p{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: var(--fw4);
+}
+.cta-image{
+    margin-left: -150px;
+    max-height: 520px;
+    margin-top: -100px;
+}
+.cta-image-mob{
+    display: none;
+}
