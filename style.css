@@ -962,4 +962,46 @@ header .hamburger .line {
     align-items: center;
 }
 
-
+@media screen and (max-width: 1024px) {
+    .blog{
+        padding: 50px 18px;
+        overflow-x: hidden;
+    }
+    .news-items{
+        gap:16px;
+        justify-content: center;
+    }
+    .news-item2, .news-item3{
+        display: none;
+    }
+    .news-item{
+        min-width: 290px;
+        margin-bottom: 24px;
+    }
+    .news-content date{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .news-content h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .news-content .content{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .news-content .read-story{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1200px) {
+    .blog{
+        padding: 20px;
+    }
+    .news-items{
+        gap:8px;
+    }
+    .news-item2{
+        display: block;
+    }
+}
