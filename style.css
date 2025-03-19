@@ -511,3 +511,46 @@ header .hamburger .line {
         font-size: 20px;
     }
 }
+
+
+.company-message{
+    display: flex;
+    gap:60px;
+}
+.message-image img{
+    max-width: 700px;
+}
+.message-content{
+    padding: 133px 150px 133px 0;
+}
+.message-content h1, .testimonials h1{
+    font-size: 3.75rem;
+    color: var(--dark);
+    font-weight: var(--fw7);
+    line-height: 72px;
+}
+.message-content h1 span{
+    color: var(--secon);
+    margin-left: 10px;
+}
+.message-content p{
+    color: var(--dark);
+    font-size: 1.25rem;
+    font-weight: var(--fw4);
+    margin: 32px 0;
+}
+.message-content .btn{
+    background-color: var(--prime);
+    color:var(--white);
+    font-size: 18px;
+    font-weight: var(--fw7);
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    display: flex;
+    max-width: 210px;
+    gap:24px;
+    align-items: center;  
+}
+.message-image-mob{
+    display: none;
+}
