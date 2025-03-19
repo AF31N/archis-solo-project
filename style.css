@@ -1155,6 +1155,32 @@ li{
 .footer-links-col ul li{
     margin-top: 32px;
 }
+.collaborators-sec{
+    background-color: var(--grey);
+    padding: 40px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.developer{
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 1px solid #888888;
+}
+.developer p{
+    padding: 30px 100px;
+    border-bottom: 1px solid #888888;
+    font-size: 16px;
+    font-weight: var(--fw4);
+    color: #444444;
+}
+.developer span{
+    color: #6439FF;
+}
+.collaborators{
+    padding: 30px 100px;
+}
 
 @media screen and (max-width:576px) {
     .footer{
@@ -1184,23 +1210,7 @@ li{
     .footer-links-col ul li a{
         font-size: 16px;
     }
-    .collaborators-sec{
-        padding: 24px 20px;
-    }
-    .collaborators{
-        padding: 30px 10px;
-        display: flex;
-        gap:19px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .collaborators img{
-        width:60px;
-    }
-    .developer p{
-        padding: 30px 24px;
-        text-align: center;
-    }
+   
 }
 @media screen and (min-width:768px) and (max-width:1200px){
     .footer{
