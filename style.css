@@ -117,7 +117,7 @@ header .hamburger .line {
 
 
 /* Responsive Styles */
-/* @media (min-width:769px) and (max-width: 1200px) {
+@media (min-width:769px) and (max-width: 1200px) {
     header .auth a, header .auth .login{
         padding:10px 20px;
     }
@@ -182,7 +182,7 @@ header .hamburger .line {
                 transform: translateY(-7px) rotate(-45deg);
             }
         }
-    } */
+    }
 
 
 
