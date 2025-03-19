@@ -602,3 +602,31 @@ header .hamburger .line {
         line-height: 45px;
     }
 }
+
+
+/* Numbers Section */
+.beneficial-elements{
+    padding:100px 150px;
+}
+.stats-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    text-align: center;
+}
+.stats-wrap .stats{
+    display: flex;
+    gap:64px;
+}
+.stats h3{
+    font-size: 4rem;
+    color:var(--prime);
+    font-weight: var(--fw7);
+    min-width: 237px;
+}
+.stats p{
+    font-size: 1.5rem;
+    color:var(--darkgrey);
+    font-weight: var(--fw7);
+}
