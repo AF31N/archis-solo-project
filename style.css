@@ -337,3 +337,38 @@ header .hamburger .line {
         margin-bottom: 20px;
     }
 }
+
+
+/* Video Section */
+.video-container{
+    background-color: var(--prime);
+    padding: 100px 150px 0 150px;
+}
+.team-content{
+    display: flex;
+    gap:120px;
+    justify-content: space-between;
+}
+.team-content h1{
+    font-size: 55px;
+    color: #FFF;
+    font-weight: var(--fw7);
+    min-width: 590px;
+}
+.team-content h1 span{
+    color: var(--yellow);
+    font-size: 50px;
+}
+.team-content p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: var(--fw4);
+    color: var(--white);
+}
+.team-image{
+    padding-top: 64px;
+    display: flex;
+}
+.team-image-mob{
+    display: none;
+}
